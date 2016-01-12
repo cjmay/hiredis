@@ -5,7 +5,7 @@
 
 OBJ=net.o hiredis.o sds.o async.o read.o
 EXAMPLES=hiredis-example hiredis-example-libevent hiredis-example-libev hiredis-example-glib
-TESTS=hiredis-test
+TESTS=hiredis-test hiredis-sds-test
 LIBNAME=libhiredis
 PKGCONFNAME=hiredis.pc
 
